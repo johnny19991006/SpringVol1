@@ -14,7 +14,9 @@ class TestMethodTest {
 
         // 스프링 빈 사용
         TestMethod testMethod = context.getBean(TestMethod.class);
-        testMethod.timeTraceMethod();
+        testMethod.timeTraceMethod1();
+        testMethod.timeTraceMethod2();
+        testMethod.timeTraceMethod3();
 
         context.close();
     }
